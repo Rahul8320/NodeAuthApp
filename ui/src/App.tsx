@@ -1,5 +1,7 @@
+import NotesPage from "./pages/notes.page";
+
 function App() {
-  return <h1>Welcome to secret note app</h1>;
+  return <NotesPage />;
 }
 
 export default App;
