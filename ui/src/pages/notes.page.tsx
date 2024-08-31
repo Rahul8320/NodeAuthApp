@@ -57,7 +57,12 @@ const NotesPage = () => {
         <Button variant="contained" color="primary" onClick={handleEncrypt}>
           Encrypt Note
         </Button>
-        <Button variant="contained" color="secondary" onClick={handleDecrypt}>
+        <Button
+          variant="contained"
+          color="secondary"
+          onClick={handleDecrypt}
+          className="mx-3"
+        >
           Decrypt Note
         </Button>
       </div>
