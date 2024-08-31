@@ -6,7 +6,7 @@ import morgan from "morgan";
 import dotenv from "dotenv";
 import router from "./routes";
 
-// intialize env values
+// initialize env values
 dotenv.config();
 
 // Create Express server
